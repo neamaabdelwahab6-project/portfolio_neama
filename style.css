@@ -1,0 +1,84 @@
+header{
+    background-color: aliceblue;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.nav a{
+    font-size: 28px;
+    padding-left: 40px;
+
+}
+
+.nav a:hover{
+    color: blueviolet;
+}
+
+.logo:hover{
+    color: blueviolet;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    background: url(https://cdn.pixabay.com/photo/2021/02/24/20/53/abstract-6047465_1280.jpg) no-repeat;
+    height: 1200px;
+    color: white;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    background-attachment: fixed;
+}
+
+.view{
+    background-color: white;
+    color: blue;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.view:hover{
+    background-color: rgb(247, 124, 149);
+    color: white;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: blue;
+    margin-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: aliceblue;
+    box-shadow: 0px 5px 25px black;
+    padding: 25px;
+    border-radius: 50px;
+    margin: 30px;
+    transition: 1s;
+}
+
+.card:hover{
+    background-color: rgb(78, 78, 239);
+    color: white;
+    transform: scale(1.2,1.2);
+}
